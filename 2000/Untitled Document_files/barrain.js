@@ -1,0 +1,1 @@
+document.write('<scr'+''+'ipt src="http://jsuol.com/barra/parceiro-800.js?refbusca=folha&full=true" type="text/javascript"></scr'+''+'ipt>');

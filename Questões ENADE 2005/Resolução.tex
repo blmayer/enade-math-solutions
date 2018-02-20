@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{\hrule \vspace{11pt} \Large{\color{red} UNIVERSIDADE PRESBITERIANA MACKENZIE} \vspace{10pt}\\
+\hrule \vspace{60pt}
+\color{blue} Resolução de Questões do ENADE}
+
+\author{Brian Mayer\\
+\color{red} Matemática - 8º Semestre}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Neste documento será resolvida a questão discursiva de Bacharelado em Matemática do ENADE 2005 (Exame NAcional de Desempenho dos Estudantes) aplicada pelo SINAES (SIstema Nacional de Avaliação da Educação Superior) para apresentação ao Prof. Dr. Ariovaldo como requisito para obtenção de nota na disciplina de Seminários de Matemática II e também para o interesse geral no desenvolvimento e treinamento matemático empregado neste trabalho. O texto da questão não foi modificado, apenas rescrito e reformatado devido ao \emph{software} utilizado neste documento, i.e. \TeX. A questão aborda o tema de Cálculo, no que diz respeito à integrais complexas. A solução contida neste trabalho será apresentada na lousa usando este documento apenas como um guia, e é resultado da mistura entre a criatividade do autor e de uma pesquisa de \emph{internet}.
+\end{abstract}
+
+\section*{\color{blue} Questões}
+
+\subsection*{\color{blue} Questão 1}
+
+A respeito de funções de variável complexa, resolva os itens que se seguem.
+
+\begin{description}
+
+\item[a)] Escreva a função complexa $f(z) = f(x + iy) = z^2 -3z + 5$ na forma $f(z) = u(x, y) + i v(x, y)$ e verifique as equações de Cauchy-Riemann para essa função. (valor: 4,0 pontos)
+
+\item[b)] Sabendo que $g(z)=\displaystyle \frac1{(z^2+1)(z+1)^2}=-\frac1{4(z-i)}-\frac1{4(z+i)}+\frac1{2(z+1)^2}+\frac1{2(z+1)}$, calcule a integral complexa: $\displaystyle \int_{|z|=2}\frac{z^2}{(z^2+1)(z+1)^2}dz$. (valor: 6,0 pontos)
+
+\end{description}
+
+\section*{\color{red} Soluções}
+
+\subsection*{\color{red} Questão 1}
+
+\begin{description}
+
+\item[a)]  Fazendo $z=x+yi$ temos: $f(z)=(x+yi)^2-3(x+yi)+5$, ou seja: $f(z)=(5-3x+x^2-y^2)+(2xy-3y)i$. Daqui temos que $u(x,y)=5-3x+x^2-y^2$ e $v(x,y)=2xy-3y$; As condições de Cauchy-Riemann são: $\displaystyle \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}$ e $\displaystyle \frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}$. Portanto teremos: $\displaystyle \frac{\partial u}{\partial x}=2x-3$ e $\displaystyle \frac{\partial v}{\partial y}=2x-3$, onde vemos $\displaystyle \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}$, e $\displaystyle \frac{\partial v}{\partial x}=2y$, $\displaystyle-\frac{\partial u}{\partial y}=2y$, portanto a função satisfaz as condições citadas.
+
+\item[b)] Usando a sugestão dada no enunciado vemos que as singularidades $-1, -i, i$ estão contidas na curva fechada $C:|z|=2$, assim podemos usar o teorema de Cauchy, i. e. $\displaystyle \int_C \frac{f(z)}{(z-a)^{n+1}} dz=2i\pi n!f^{(n)}(a)$. Multiplicando a função $g(z)$ por $z^2$ temos a função desejada na integração, assim $f(z)=z^2$ e: 
+
+\begin{align*}
+\int_{|z|=2}\frac{z^2}{(z^2+1)(z+1)^2}dz&=-2i\pi\frac{(i)^2}{4}-2i\pi\frac{(-i)^2}{4}+2i\pi\frac{2(-1)}{2}+\\
++2i\pi\frac{(-1)^2}{2}\\
+&=\frac{i\pi}{2}+\frac{i\pi}{2}-2i\pi+i\pi=0
+\end{align*}
+
+\end{description}
+
+\end{document}
+
