@@ -1,0 +1,90 @@
+\chapter{ENADE 1998}
+
+\section{\color{blue} Quest\~oes}
+
+\subsection{\color{blue} Quest\~ao 1}
+
+Seja $R$ uma regi\~ao do plano que satisfaz as condi\c c\~oes do Teorema de Green.
+
+\begin{enumerate}
+
+\item[(a)] Mostre que a \'area de $R$ \'e dada por $\displaystyle \frac1{2} \int_{\partial R} x dy - y dx$
+
+\item[(b)] Use o item (a) para calcular a \'area da elipse de equa\c c\~oes $\begin{cases} x=a\cos(\theta) \\ y=b\sin(\theta)\end{cases}$ onde $a > 0$ e $b > 0$ s\~ao fixos, e $0 \leq \theta \leq 2 \pi$ (valor: 20,0 pontos)
+
+\end{enumerate}
+
+\paragraph{Dados/Informa\c c\~oes adicionais:} Teorema de Green: Seja $R$ uma regi\~ao do plano com interior n\~ao vazio e cuja fronteira $\partial R$ \'e formada por um n\'umero finito de curvas fechadas, simples, disjuntas e de classe $C^1$ por partes. Sejam $L(x,y)$ e $M(x,y)$ fun\c c\~oes de classe $C^1$ em $R$. Ent\~ao $\displaystyle \int\!\int_R \left(\frac{\partial M}{\partial x}-\frac{\partial L}{\partial y}\right)dx dy=\int_{\partial R} L dx + M dy$
+
+\subsection{\color{blue} Quest\~ao 2}
+
+Resolva a equa\c c\~ao diferencial $y'''- 4y'' + 4y' = e^x$, onde $y'=\displaystyle\frac{dy}{dx}$; $y''=\displaystyle\frac{d^2 y}{dx^2}$; $y'''=\displaystyle\frac{d^3 y}{dx^3}$ (valor: 20,0 pontos)
+
+\subsection{\color{blue} Quest\~ao 3}
+
+Prove que se uma seqü\^encia de fun\c c\~oes $f_n: D \to \mathbb R, D \subset R$ converge uniformemente para $f: D \to \mathbb R$ e cada $f_n$ \'e cont\'\i nua no ponto $a \in D$, ent\~ao $f$ \'e cont\'\i nua no ponto $a$.
+
+\paragraph{Dados/Informa\c c\~oes adicionais:} Uma seqü\^encia de fun\c c\~oes $f_n: D \to \mathbb R, D \subset R$ converge uniformemente para $f: D \to \mathbb R$ se para todo $\epsilon > 0$ dado existe $n_0 \in \mathbb N$ tal que $n > n_0 \Longrightarrow |f_n(x) - f(x)| < \epsilon$ para todo $x \in D$. (valor: 20,0 pontos)
+
+\subsection{\color{blue} Quest\~ao 4}
+
+Seja $\gamma: [0,2\pi] \to \mathbb C$ a curva $\gamma (\theta) = e^{i\theta}$. Calcule $\displaystyle \int_\gamma \frac1{z-z_0} dz$ nos seguintes casos:
+
+\begin{enumerate}
+
+\item[(a)] $z_0=\displaystyle \frac1{2} (1+i)$
+
+\item[(b)] $z_0 = 2(1 + i)$. (valor: 20,0 pontos)
+
+\end{enumerate}
+
+\subsection{\color{blue} Quest\~ao 5}
+
+Sejam $\alpha$ um n\'umero alg\'ebrico de grau $n$ e  $\beta = b_0 + b_1\alpha + ... + b_{n-1}\alpha^{n-1}$ um elemento n\~ao nulo no corpo $\mathbb Q(\alpha)$, i.e., os coeficientes $b_i$ s\~ao racionais, $0 \leq i \leq n-1$, e, pelo menos, um deles \'e diferente de zero.
+
+\begin{enumerate}
+
+\item[(a)] Prove que $\displaystyle\frac1{\beta}$ \'e um polinômio em $\alpha$.
+
+\item[(a)] Racionalize a fra\c c\~ao $\displaystyle \frac1{2+\sqrt[3]{2}}$. (valor: 20,0 pontos)
+
+\end{enumerate}
+
+\section{\color{red} Solu\c c\~oes}
+
+\subsection{\color{red} Quest\~ao 1}
+
+\begin{enumerate}
+
+\item[(a)] A integral dada no enunciado nos fornece $L(x,y)=-y$ e $M(x,y)=x$. Calculando $\displaystyle \frac{\partial M}{\partial x}-\frac{\partial L}{\partial y}$ obtemos: 2. Como foi dito que a fun\c c\~ao satisfaz as condi\c c\~oes do Teorema de Green, ent\~ao a integral $\displaystyle \frac1{2} \int_{\partial R} x dy - y dx=\displaystyle \frac1{2}\int\!\int_R 2 dx dy=\int\!\int_R dx dy$, que corresponde \`a \'area da regi\~ao $R$.
+
+\item[(b)] Temos ent\~ao $\displaystyle \frac1{2} \int_{\partial R} x dy - y dx=\frac1{2} \int_{\partial R} a\cos(\theta) dy-b\sin(\theta) dx$. Mas $dy=b \cos(\theta)d\theta$ e $dx=-a \sin(\theta) d\theta$, ent\~ao a integral se torna: 
+
+$$\frac1{2} \int_{\partial R} a\cos(\theta) b \cos(\theta)d\theta-b\sin(\theta) (-a \sin(\theta)) d\theta=$$ $$=\frac{ab}{2} \int_{\partial R}\cos^2(\theta)+\sin^2(\theta) d\theta=\frac{ab}{2}\int_0^{2\pi} d\theta=ab\pi$$
+
+\end{enumerate}
+
+\subsection{\color{red} Quest\~ao 2}
+
+Fazendo a substitui\c c\~ao: $u(x)=y'(x)$ a equa\c c\~ao diferencial assume a forma $u''-4u'+4u=e^x$. A solu\c c\~ao da equa\c c\~ao caracter\'\i stica \'e: $\lambda=2$, portanto a solu\c c\~ao da equa\c c\~ao homog\^enea associada \'e $u(x)=c_1e^{2x}+c_2xe^{2x}$.
+
+Pela equa\c c\~ao n\~ao homog\^enea, uma aparente solu\c c\~ao \'e $u(x)=e^x$. De fato: $e^x-4e^x+4e^x=e^x$, portanto pelo princ\'\i pio da sobreposi\c c\~ao uma solu\c c\~ao da equa\c c\~ao diferencial \'e $u(x)=c_0e^x+c_1e^{2x}+c_2xe^{2x}$. Mas $u=y'$, ent\~ao $$y(x)=\int u(x) dx=\int c_0e^x+c_1e^{2x}+c_2xe^{2x}dx$$
+
+Portanto a solu\c c\~ao da eq. diferencial \'e $y(x)=C_0e^x+C_1e^{2x}+ C_2 xe^{2x}+C_3$.
+
+\subsection{\color{red} Quest\~ao 3}
+
+Como a sequ\^encia de fun\c c\~oes converge para $f$, ent\~ao dado $\epsilon>0$ existe $n_o \in \mathbb N$ tal que para $n>n_0$, $|f_n(x)-f(x)|<\epsilon$.  Mas cada $f_n$ \'e cont\'\i nua no ponto $a$, ou seja, para $\delta>0$, $|x-a|<\delta$ implica que $|f_n(x)-f_n(a)|<\epsilon$. Como $f_n(x)$ converge para $f(x)$ ent\~ao $|f(x)-f(a)|<\epsilon$, portanto $f$ \'e cont\'\i nua em $a$.
+
+\subsection{\color{red} Quest\~ao 4}
+
+A curva em quest\~ao \'e a circunfer\^encia de raio $1$, ent\~ao:
+
+\begin{enumerate}
+
+\item[(a)] Como $z_0=\frac1{2}(1+i)$ est\'a dentro da curva $\gamma$, pois $|z_0|=\frac{\sqrt 2}{2}<1$, podemos usar o teorema de Cauchy para as integrais complexas, assim: $$\displaystyle \int_\gamma \frac1{z-\frac1{2}(1+i)} dz=2i\pi$$
+
+\item[(b)] Como $z_0=2(1+i)$ est\'a fora da curva $\gamma$, pois $|z_0|=2\sqrt 2 > 1$, o valor da integral \'e zero.
+
+\end{enumerate}
+
