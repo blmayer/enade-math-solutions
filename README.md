@@ -17,12 +17,12 @@ There are lots of things to do, the ones in my mind now are listed below.
 ## Meta
 
 Created by: Brian Mayer - bleemayer@gmail.com	
-Inital commit: Februeary, 19, 2018
+Inital commit: February, 19, 2018
 Distributed under The Unlicense. See ``UNLICENSE`` for more information.
 
 ## Contributing
 
-Please feel free to contact me and to meak a pull request.
+Please feel free to contact me and to make a pull request.
 
 ## Acknowledgments
 
