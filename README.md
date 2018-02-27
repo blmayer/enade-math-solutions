@@ -6,14 +6,12 @@
 
 ## Current work
 
-- Spliting into separate files; &
 - Changing document style.
 
 ## To-do
 
 There are lots of things to do, the ones in my mind now are listed below.
 
-- Split into includes by year;
 - Solve also multiple-choice questions; &
 - Solve problems:
 
@@ -47,13 +45,14 @@ The idea for this came from a work I presented during my math degree in Universi
 
 ## Trabalho atual
 
-- Publicações iniciais.
+- Mudar o estilo do documento.
 
 ## A fazer
 
 Há muitas coisas para fazer, as que estão em minha mente agora estão listadas abaixo.
 
-- Dividir soluções por ano.
+- Resolver também questões de multipla escolha; &
+- Veja a tabela acima.
 
 ## Meta
 
