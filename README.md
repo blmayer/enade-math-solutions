@@ -6,13 +6,15 @@
 
 ## Current work
 
-- Initial publishings.
+- Spliting into separate files; &
+- Changing document style.
 
 ## To-do
 
 There are lots of things to do, the ones in my mind now are listed below.
 
-- Split into includes by year.
+- Split into includes by year;
+- Solve also multiple-choice questions; &
 - Solve problems:
 
 |  #  | 1998 | 1999 | 2000 | 2001 | 2002 | 2003 | 2005 | 2008 | 2011 | 2014 | 2017 |
@@ -23,6 +25,7 @@ There are lots of things to do, the ones in my mind now are listed below.
 |  4  |   √  |      |      |      |      |   √  |  NA  |  NA  |  NA  |      |  NA  |
 |  5  |      |      |  NA  |      |   √  |      |  NA  |  NA  |  NA  |      |  NA  |
 |  6  |  NA  |  NA  |  NA  |  NA  |      |      |  NA  |  NA  |  NA  |  NA  |  NA  |  
+
 
 ## Meta
 
