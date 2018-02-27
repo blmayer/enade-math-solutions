@@ -1,0 +1,113 @@
+\chapter{ENADE 1999}
+
+\section{\color{blue} Quest\~oes}
+
+\subsection{\color{blue} Quest\~ao 1}
+
+Um modelo cl\'assico para o crescimento de uma popula\c c\~ao de determinada esp\'ecie est\'a descrito a seguir. Indicando por
+$y = y(t)$ o n\'umero de indiv\'\i duos desta esp\'ecie, o modelo admite que a taxa de crescimento relativo da popula\c c\~ao seja proporcional
+\`a diferen\c ca $M - y(t)$, onde $M > 0$ \'e uma constante. Isto conduz \`a equa\c c\~ao diferencial $\displaystyle \frac{y'}{y}= k (M - y)$, onde $k > 0$ \'e uma constante que depende da esp\'ecie. Com base no exposto:
+
+\begin{enumerate}
+
+\item[(a)] resolva a equa\c c\~ao diferencial acima; (valor: 10,0 pontos)
+
+\item[(b)] considere o modelo apresentado para o caso particular em que $M = 1000$, $k = 1$ e $y (0) = 250$ e explique qualitativamente como se d\'a o crescimento da popula\c c\~ao correspondente, indicando os valores de t para os quais $y(t)$ \'e crescente, e o valor limite de $y(t)$ quando $t \to \infty$. (valor: 10,0 pontos)
+
+\end{enumerate}
+
+\subsection{\color{blue} Quest\~ao 2}
+
+Seja $\mathbb Z_3 = {\bar 0 , \bar 1 , -\bar 1}$ o corpo de inteiros m\'odulo $3$ e $\mathbb Z_3 [x]$ o anel de polinômios em $x$ com coeficientes em $\mathbb Z_3$.
+
+\begin{enumerate}
+
+\item[(a)] Mostre que $x^2 + x - 1$ \'e irredut\'\i vel em $\mathbb Z_3 [x]$. (valor: 10,0 pontos)
+
+\item[(b)] Mostre que o anel quociente $\displaystyle {\mathbb Z_3 [x]}/{x^2 + x - 1}$ \'e um corpo e que tem $9$ elementos. (valor: 10,0 pontos)
+
+\end{enumerate}
+
+\subsection{\color{blue} Quest\~ao 3}
+
+Considere o subconjunto $\Gamma$ do $\mathbb R^2$ dado pela equa\c c\~ao $2(x^2+ y^2)^2=25(x^2-y^2)$.
+
+\begin{enumerate}
+
+\item[(a)] Para que valores de $x$ existem $v_x$ , vizinhan\c ca de $x$, e fun\c c\~ao diferenci\'avel $y = y(x)$ definida em $v_x$, satisfazendo $2(x^2+ y(x)^2)^2=25 (x^2-y(x)^2)$? Justifique. (valor: 10,0 pontos) 
+
+\item[(b)] Obtenha a reta tangente a $\Gamma$ no ponto $(3, 1)$.
+(valor: 10,0 pontos)
+
+\end{enumerate}
+
+\subsection{\color{blue} Quest\~ao 4}
+
+Prove que se uma fun\c c\~ao $f: \mathbb R^n \to \mathbb R^n$ \'e cont\'\i nua, ent\~ao a imagem inversa $f^{-1}(V)$ de todo subconjunto aberto $V \subset \mathbb R^n$  \'e um subconjunto aberto de $\mathbb R^n$. (valor: 20,0 pontos)
+
+\paragraph{Defini\c c\~ao:} Uma fun\c c\~ao $f: \mathbb R^n \to \mathbb R^n$ \'e cont\'\i nua num ponto $a \in \mathbb R^n$ quando, para todo $\epsilon > 0$ existe $d > 0$ tal que $|x - a| < \delta \Longrightarrow |f(x) - f(a)| < \epsilon$.
+
+\subsection{\color{blue} Quest\~ao 5}
+
+Sejam $\vec F: D \subset \mathbb R^n \to \mathbb R^n$ um campo conservativo, $\phi: D \subset \mathbb R^n \to \mathbb R^n$ uma fun\c c\~ao potencial de $\vec F$ e $\gamma:[a,b] \to D$ uma curva regular de classe $C^1$.
+
+\begin{enumerate}
+
+\item[(a)] Mostre que o trabalho realizado por $\vec F$ sobre $\gamma$ \'e dado por $\phi(\gamma(b)) - \phi(\gamma(a))$. (valor: 10,0 pontos)
+
+\item[(b)] Calcule o trabalho realizado pelo campo $\vec F (x,y)=\displaystyle \left( \frac{x}{x^2+y^2},\frac{y}{x^2+y^2}  \right)$ sobre a curva esbo\c cada abaixo. (valor: 10,0 pontos)
+
+\begin{center}
+\begin{picture}(160,80)
+\put(0,40){\vector(1,0){160}}
+\put(150,30){$x$}
+\put(60,0){\vector(0,1){80}}
+\put(50,72){$y$}
+\put(130,40){\circle*{3}}
+\put(90,40){\circle*{3}}
+\put(128,29){$e$}
+\put(92,28){\small$1$}
+\qbezier(130,40)(119,65)(60,66)
+\qbezier(60,66)(28,65.5)(29,40)
+\qbezier(29,40)(31,17)(60,16)
+\qbezier(60,16)(86,17)(90,40)
+\put(103,60.4){\vector(-4,1){2}}
+\put(87.6,31.7){\vector(1,3){2}}
+\end{picture}
+\end{center}
+
+\end{enumerate}
+
+\paragraph{Defini\c c\~oes:} Um campo vetorial $\vec F: D \subset \mathbb R^n \to \mathbb R^n$ diz-se conservativo (ou gradiente) se existe $\phi: D \to \mathbb R$, de classe $C^1$, tal que $\vec \nabla \phi = \vec F$ em todo ponto de $D$. Uma tal $\phi$ chama-se fun\c c\~ao potencial. O trabalho realizado por um campo de vetores sobre uma curva $\gamma:[a,b] \to D$ \'e dado por $\displaystyle \int_a^b \vec F(\gamma(t))\cdot \vec \gamma '(t)dt$.
+
+\section{\color{red} Solu\c c\~oes}
+
+\subsection{\color{red} Quest\~ao 1}
+
+\begin{enumerate}
+
+\item[(a)] Dividindo ambos lados por $(M-y)$ e integrando em rela\c c\~ao a $t$ temos: $\displaystyle \int \frac{dy}{y(M-y)}=\int k dt$. A integral da direita \'e simplesmente $kt+c$. Mas na da esquerda precisamos fazer decomposi\c c\~ao em fra\c c\~oes parciais. Ent\~ao:
+
+$${1\over y(M-y)}={A\over y}+{B\over M-y}={(B-A)y+AM\over y(M-y)}\Longrightarrow
+\cases{A&=$1\over M$; \cr
+B-A&$=0$}$$
+
+Portanto nossa solu\c c\~ao para a decomposi\c c\~ao \'e: $A=\frac1{M}=B$. Ent\~ao nossa integral \'e: $$\frac1{M}\int \frac1
+{y}+\frac1{M-y} dy=\frac1{M} \ln\left(\frac{y}{y-M}\right)$$
+
+Assim nos reduzimos a: $\frac1{M} \ln\left(\frac{y}{y-M}\right)=kt+c \; \Longrightarrow \;\frac{y}{y-M}=e^{Mkt+Mc}$, ou seja: $y=(y-M)(e^c e^{kt})^M=y(e^c e^{kt})^M-M(e^c e^{kt})^M$, ent\~ao: $y((e^c e^{kt})^M-1)=M(e^c e^{kt})^M$, dividindo por $(e^c e^{kt})^M-1$ e chamando $e^{cM}=C$ e $kM=K$, finalmente temos: $$y=\frac{MC e^{Kt}}{C e^{Kt}-1}$$ multiplicando esta \'ultima equa\c c\~ao por $e^{-Kt}$ para cancelarmos duas exponenciais, a equa\c c\~ao assume a forma: $$y=\frac{MC}{C-e^{-Kt}}$$
+
+\item[(b)] Sendo $M=1000$ e $k=1$, nossa constante \'e $K=1000$, e a equa\c c\~ao se torna $$y=\frac{1000C}{C-e^{-1000t}}$$ o enunciado nos deu $y(0)=250$, ent\~ao $250=\frac{1000C}{C-1}\Longrightarrow C=\frac{-5}{13}$. Ent\~ao nossa equa\c c\~ao se torna: $$y(t)=\frac{1000}{13e^{-1000t}/5+1}$$
+
+A fun\c c\~ao \'e sempre crescente para valores positivos de $t$, e quando $t\to\infty$, $y\to 1000=M$.
+
+\end{enumerate}
+
+\subsection{\color{red} Quest\~ao 2}
+
+\begin{enumerate}
+
+\item[(a)] O polinômio $x^2+x-1$ \'e irredut\'\i vel pois $\bar 1^2+\bar 1 -1=\bar 1 \neq \bar 0$, $\bar 0^2+\bar 0-1=\bar 2\neq \bar 0$ e $\bar 2^2+\bar 2-1=\bar 2 \neq \bar 0$, logo n\~ao possui ra\'\i zes, ent\~ao \'e irredut\'\i vel.
+
+\end{enumerate}
+

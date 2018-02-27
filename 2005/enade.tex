@@ -1,0 +1,34 @@
+\chapter{ENADE 2005}
+
+\section{\color{blue} Quest\~oes}
+
+\subsection{\color{blue} Quest\~ao 1}
+
+A respeito de fun\c c\~oes de vari\'avel complexa, resolva os itens que se seguem.
+
+\begin{enumerate}
+
+\item[(a)] Escreva a fun\c c\~ao complexa $f(z) = f(x + iy) = z^2 -3z + 5$ na forma $f(z) = u(x, y) + i v(x, y)$ e verifique as equa\c c\~oes de Cauchy-Riemann para essa fun\c c\~ao. (valor: 4,0 pontos)
+
+\item[(b)] Sabendo que $g(z)=\displaystyle \frac1{(z^2+1)(z+1)^2}=-\frac1{4(z-i)}-\frac1{4(z+i)}+\frac1{2(z+1)^2}+\frac1{2(z+1)}$, calcule a integral complexa: $\displaystyle \int_{|z|=2}\frac{z^2}{(z^2+1)(z+1)^2}dz$. (valor: 6,0 pontos)
+
+\end{enumerate}
+
+\section{\color{red} Solu\c c\~oes}
+
+\subsection{\color{red} Quest\~ao 1}
+
+\begin{enumerate}
+
+\item[(a)] Fazendo $z=x+yi$ temos: $f(z)=(x+yi)^2-3(x+yi)+5$, ou seja: $f(z)=(5-3x+x^2-y^2)+(2xy-3y)i$. Daqui temos que $u(x,y)=5-3x+x^2-y^2$ e $v(x,y)=2xy-3y$; As condi\c c\~oes de Cauchy-Riemann s\~ao: $\displaystyle \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}$ e $\displaystyle \frac{\partial v}{\partial x}=-\frac{\partial u}{\partial y}$. Portanto teremos: $\displaystyle \frac{\partial u}{\partial x}=2x-3$ e $\displaystyle \frac{\partial v}{\partial y}=2x-3$, onde vemos $\displaystyle \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}$, e $\displaystyle \frac{\partial v}{\partial x}=2y$, $\displaystyle-\frac{\partial u}{\partial y}=2y$, portanto a fun\c c\~ao satisfaz as condi\c c\~oes citadas.
+
+\item[(b)] Usando a sugest\~ao dada no enunciado vemos que as singularidades $-1, -i, i$ est\~ao contidas na curva fechada $C:|z|=2$, assim podemos usar o teorema de Cauchy, i. e. $\displaystyle \int_C \frac{f(z)}{(z-a)^{n+1}} dz=\frac{2i\pi}{ n!}f^{(n)}(a)$. Multiplicando a fun\c c\~ao $g(z)$ por $z^2$ temos a fun\c c\~ao desejada na integra\c c\~ao, assim $f(z)=z^2$ e: 
+
+$$\int_{|z|=2}\frac{z^2}{(z^2+1)(z+1)^2}dz$$
+
+$$=2i\pi\left(-\frac{(i)^2}{4}-\frac{(-i)^2}{4}+\frac{2(-1)}{2}+\frac{(-1)^2}{2}\right)$$
+
+$$=\frac{i\pi}{2}+\frac{i\pi}{2}-2i\pi+i\pi=0$$
+
+\end{enumerate}
+
