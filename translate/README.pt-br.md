@@ -4,7 +4,7 @@
 
 
 ## Outros idiomas
-[🇺🇸](./README.md)
+[🇺🇸](../README.md)
 
 ## Trabalho atual
 
