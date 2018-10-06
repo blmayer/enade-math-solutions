@@ -17,6 +17,18 @@ Há muitas coisas para fazer, as que estão em minha mente agora estão listadas
 - Resolver também questões de multipla escolha; &
 - Veja a tabela acima.
 
+
+|  #  | 1998 | 1999 | 2000 | 2001 | 2002 | 2003 | 2005 | 2008 | 2011 | 2014 | 2017 |
+|-----|------|------|------|------|------|------|------|------|------|------|------|
+|  1  |   √  |   √  |      |      |   √  |   √  |   √  |   √  |   √  |      |      |
+|  2  |   √  |   √  |   √  |   √  |      |   √  |  NA  |  NA  |   √  |      |      |
+|  3  |   √  |      |      |   √  |      |      |  NA  |  NA  |   √  |      |  NA  |
+|  4  |   √  |      |      |      |      |   √  |  NA  |  NA  |  NA  |      |  NA  |
+|  5  |      |      |  NA  |      |   √  |      |  NA  |  NA  |  NA  |      |  NA  |
+|  6  |  NA  |  NA  |  NA  |  NA  |      |      |  NA  |  NA  |  NA  |  NA  |  NA  |  
+
+
+
 ## Meta
 
 Criado por: Brian Mayer - bleemayer@gmail.com
