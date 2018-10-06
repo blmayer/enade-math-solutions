@@ -4,6 +4,9 @@
 
 >This repository ontains solutions to the ENADE math tests starting from 1998 up to the present, for this to be possible all collaboration is welcome. Here we solve all open questions found in math tests of the teaching license and barcherlor degree ENADE (Exame NAcional de Desempenho dos Estudantes), applied by the SINAES (SIstema Nacional de Avaliação da Educação Superior). These two names are the Brazilian entities responsible for higher education regulation. All question texts were not modified, only rewritten and reformatted due to the software used for processing the tests, i.e. TeX. All solutions presented here are result of web research and and my own expertise and are written in portuguese.
 
+## Others languages
+[🇧🇷](translations/README.pt_br.md)
+
 ## Current work
 
 - Changing document style.
