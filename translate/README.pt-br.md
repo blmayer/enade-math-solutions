@@ -15,7 +15,7 @@
 Há muitas coisas para fazer, as que estão em minha mente agora estão listadas abaixo.
 
 - Resolver também questões de multipla escolha; &
-- Veja a tabela acima.
+- Veja a tabela abaixo.
 
 
 |  #  | 1998 | 1999 | 2000 | 2001 | 2002 | 2003 | 2005 | 2008 | 2011 | 2014 | 2017 |
